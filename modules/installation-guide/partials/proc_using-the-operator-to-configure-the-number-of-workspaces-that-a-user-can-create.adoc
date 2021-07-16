@@ -29,4 +29,8 @@ spec:
     customCheProperties:
       CHE_LIMITS_USER_WORKSPACES_COUNT: "__<number-of-workspaces>__"
 ----
+<<<<<<< HEAD
 ====
+=======
+====
+>>>>>>> dd259840 (Update Installing Che on OpenShift 4)
