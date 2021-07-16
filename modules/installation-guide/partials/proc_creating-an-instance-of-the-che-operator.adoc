@@ -9,6 +9,7 @@ Follow this procedure to install {prod-short} with the default configuration. To
 
 .Procedure
 
+<<<<<<< HEAD
 . Using the left panel, navigate to the *Operators* -> *Installed Operators* page.
 
 . In the *Installed Operators* page, click the *{prod}* name.
@@ -20,6 +21,19 @@ A user is navigated to the *Create CheCluster* page, which contains the configur
 . Create the *{prod-checluster}* cluster using the btn:[Create] button at the end of the page using the default values.
 
 . In the *Operator details* page, in the *{prod} Cluster* tab, click the *{prod-checluster}* link.
+=======
+. In the left panel, navigate to the *Operators* -> *Installed Operators* page.
+
+. On the *Installed Operators* page, click the *{prod}* name.
+
+. On the *Operator details* page, in the *Details* tab, in the *Provided APIs* section, click the *Create instance* link.
+
+. The *Create CheCluster* page contains the configuration of the {prod-short} instance to create. It is the `CheCluster` Custom Resource. Keep the default values. 
+
+. To create the *{prod-checluster}* cluster, click the btn:[Create] button at the end of the page.
+
+. On the *Operator details* page, in the *{prod} Cluster* tab, click on the *{prod-checluster}* link.
+>>>>>>> 14bce3a0 (Update Installing Che on OpenShift 4)
 
 . Navigate to the *{prod-checluster}* instance using the link displayed under the *{prod} URL* output. 
 +
@@ -30,7 +44,11 @@ The installation might take more than 5 minutes. The URL appears when the {prod}
 
 .Verification steps
 
+<<<<<<< HEAD
 . To verify the {prod-short} instance has installed correctly, navigate to the *{prod2} Cluster* tab of the *Operator details* page. The *CheClusters* page displays the list of {prod-short} instances and their status.
+=======
+. To verify that the {prod} instance has installed correctly, on the *Operator details* page, navigate to the *{prod2} Cluster* tab. The *CheClusters* page displays the list of {prod} instances and their status.
+>>>>>>> 14bce3a0 (Update Installing Che on OpenShift 4)
 
 . Click *{prod-checluster}* `CheCluster` and navigate to the *Details* tab.
 
