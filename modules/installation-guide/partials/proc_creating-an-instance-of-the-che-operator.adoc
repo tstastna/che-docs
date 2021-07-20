@@ -5,7 +5,7 @@
 [id="creating-an-instance-of-the-{prod-id-short}-operator_{context}"]
 = Creating an instance of the {prod} Operator
 
-Follow this procedure to install {prod} with the default configuration. To modify the configuration, see xref:configuring-the-che-installation.adoc[].
+Follow this procedure to install {prod-short} with the default configuration. To modify the configuration, see xref:configuring-the-che-installation.adoc[].
 
 .Procedure
 
